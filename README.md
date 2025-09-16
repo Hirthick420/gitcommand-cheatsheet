@@ -95,3 +95,13 @@ git mv notes.txt notes-old.txt
 ~~~bash
 git show --stat HEAD
 ~~~
+## Cheat Card 13: `git stash`
+**Purpose:** Temporarily set aside uncommitted work.  
+**Quick forms:**  
+- Save: `git stash push -m "note"`  
+- Restore & drop: `git stash pop`  
+**Demo:**
+~~~bash
+git stash push -m "clean working tree"
+git stash list
+~~~
