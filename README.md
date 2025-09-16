@@ -115,3 +115,11 @@ git stash list
 git tag -a v0.1 -m "milestone"
 git tag --list
 ~~~
+## Cheat Card 15: `git reflog`
+**Purpose:** Show where HEAD/branches moved (handy for recovery).  
+**Quick form:** `git reflog`  
+**Demo:**
+~~~bash
+git reflog
+# shows recent HEAD positions
+~~~
