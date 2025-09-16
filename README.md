@@ -88,3 +88,10 @@ git rm temp.txt && git commit -m "temp: remove file"
 ~~~bash
 git mv notes.txt notes-old.txt
 ~~~
+## Cheat Card 12: `git show`
+**Purpose:** Display details about a commit or object.  
+**Quick form:** `git show <ref>` (e.g., `git show HEAD`)  
+**Demo:**
+~~~bash
+git show --stat HEAD
+~~~
