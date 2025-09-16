@@ -54,3 +54,11 @@ tail -n 3 README.md
 ~~~bash
 wc -l README.md
 ~~~
+## Cheat Card 8: `git diff`
+**Purpose:** See what changed in files before committing.  
+**Quick form:** `git diff`  
+**Demo:**
+~~~bash
+# shows unstaged changes
+git diff
+~~~
