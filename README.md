@@ -9,4 +9,12 @@
 echo "Heyyy, Git world!"
 echo "first line" >> notes.txt
 ~~~
+## Cheat Card 2: `whoami`
+**Purpose:** Shows the current username.  
+**Quick form:** `whoami`  
+**Demo:**
+~~~bash
+whoami
+# prints your Linux user name
+~~~
 
