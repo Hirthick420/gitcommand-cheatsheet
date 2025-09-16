@@ -72,3 +72,12 @@ git --version
 # example: git version 2.43.0
 ~~~
 
+## Cheat Card 10: `git rm`
+**Purpose:** Remove a tracked file from the repo (and from disk).  
+**Quick form:** `git rm <file>`  
+**Demo (concept):**
+~~~bash
+echo "temp" > temp.txt
+git add temp.txt && git commit -m "temp: add file"
+git rm temp.txt && git commit -m "temp: remove file"
+~~~
