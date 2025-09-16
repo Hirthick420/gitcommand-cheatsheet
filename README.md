@@ -62,30 +62,4 @@ wc -l README.md
 # shows unstaged changes
 git diff
 ~~~
-## Cheat Card 9 — git help
-**Purpose:** Open Git’s built-in help so you can quickly see usage and options.  
-**Quick forms:**  
-- List commands: `git help -a`  
-- Help for a command: `git help <command>` (opens man page)  
-- Short inline help: `<command> -h`
 
-**Demo:**
-```bash
-git help commit     # full manual page for 'git commit'
-git status -h       # quick one-screen usage for 'git status'
-## Cheat Card 10: `git rm`
-**Purpose:** Remove a tracked file from the repo (and disk).  
-**Quick form:** `git rm <file>`  
-**Demo (concept):**
-~~~bash
-echo "temp" > temp.txt
-git add temp.txt && git commit -m "temp: add file"
-git rm temp.txt && git commit -m "temp: remove file"
-~~~
-## Cheat Card 11: `git mv`
-**Purpose:** Rename/move a tracked file (keeps history).  
-**Quick form:** `git mv oldname newname`  
-**Demo (concept):**
-~~~bash
-git mv notes.txt notes-old.txt
-~~~
