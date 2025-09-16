@@ -82,3 +82,10 @@ echo "temp" > temp.txt
 git add temp.txt && git commit -m "temp: add file"
 git rm temp.txt && git commit -m "temp: remove file"
 ~~~
+## Cheat Card 11: `git mv`
+**Purpose:** Rename/move a tracked file (keeps history).  
+**Quick form:** `git mv oldname newname`  
+**Demo (concept):**
+~~~bash
+git mv notes.txt notes-old.txt
+~~~
