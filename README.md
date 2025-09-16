@@ -40,3 +40,10 @@ uname -a
 ~~~bash
 head -n 3 README.md
 ~~~
+## Cheat Card 6: `tail`
+**Purpose:** Show the last lines of a file.  
+**Quick form:** `tail -n 5 file.txt`  
+**Demo:**
+~~~bash
+tail -n 3 README.md
+~~~
