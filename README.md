@@ -63,3 +63,14 @@ wc -l README.md
 git diff
 ~~~
 
+## Cheat Card 9 — git help
+**Purpose:** Open Git’s built-in help so you can quickly see usage and options.  
+**Quick forms:**  
+- List commands: `git help -a`  
+- Help for a command: `git help <command>`  
+- Short inline help: `<command> -h`
+
+**Demo:**
+```bash
+git help commit     # full manual page for 'git commit'
+git status -h       # quick one-screen usage for 'git status'
