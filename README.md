@@ -33,3 +33,10 @@ uname -a
 # kernel, architecture, etc.
 ~~~
 
+## Cheat Card 5: `head`
+**Purpose:** Show the first lines of a file.  
+**Quick form:** `head -n 5 file.txt`  
+**Demo:**
+~~~bash
+head -n 3 README.md
+~~~
