@@ -17,4 +17,11 @@ echo "first line" >> notes.txt
 whoami
 # prints your Linux user name
 ~~~
+## Cheat Card 3: `date`
+**Purpose:** Prints the current date and time.  
+**Quick form:** `date`  
+**Demo:**
+~~~bash
+date "+%Y-%m-%d %H:%M:%S"
+~~~
 
