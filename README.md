@@ -74,6 +74,8 @@ git diff
 ```bash
 git help commit     # full manual page for 'git commit'
 git status -h       # quick one-screen usage for 'git status'
+
+
 ## Cheat Card 10 — git rm
 **Purpose:** Remove a tracked file from the repo (and from disk).  
 **Quick form:** `git rm <file>`
@@ -83,3 +85,4 @@ git status -h       # quick one-screen usage for 'git status'
 echo "temp" > temp.txt
 git add temp.txt && git commit -m "temp: add file"
 git rm temp.txt && git commit -m "temp: remove file"
+
