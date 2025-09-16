@@ -47,3 +47,10 @@ head -n 3 README.md
 ~~~bash
 tail -n 3 README.md
 ~~~
+## Cheat Card 7: `wc -l`
+**Purpose:** Count lines in a file.  
+**Quick form:** `wc -l file.txt`  
+**Demo:**
+~~~bash
+wc -l README.md
+~~~
