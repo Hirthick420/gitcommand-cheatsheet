@@ -63,4 +63,12 @@ wc -l README.md
 git diff
 ~~~
 
+## Cheat Card 9: `git --version`
+**Purpose:** Show the installed Git version (quick sanity check).  
+**Quick form:** `git --version`  
+**Demo:**
+~~~bash
+git --version
+# example: git version 2.43.0
+~~~
 
