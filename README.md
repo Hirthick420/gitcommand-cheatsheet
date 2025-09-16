@@ -105,3 +105,13 @@ git show --stat HEAD
 git stash push -m "clean working tree"
 git stash list
 ~~~
+## Cheat Card 14: `git tag`
+**Purpose:** Mark commits with a readable label (versions).  
+**Quick forms:**  
+- Create annotated: `git tag -a v1.0 -m "first tag"`  
+- List tags: `git tag --list`  
+**Demo:**
+~~~bash
+git tag -a v0.1 -m "milestone"
+git tag --list
+~~~
