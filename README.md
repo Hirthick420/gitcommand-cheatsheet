@@ -24,4 +24,12 @@ whoami
 ~~~bash
 date "+%Y-%m-%d %H:%M:%S"
 ~~~
+## Cheat Card 4: `uname -a`
+**Purpose:** Shows system/kernel info.  
+**Quick form:** `uname -a`  
+**Demo:**
+~~~bash
+uname -a
+# kernel, architecture, etc.
+~~~
 
